@@ -21182,6 +21182,7 @@ function be() {
                 var i = t.type,
                   n = t.data,
                   r = t.initSegment;
+                console.log("e",e)
                 return e[i].segments.push(n),
                   e[i].bytes += n.byteLength,
                   e[i].initSegment = r,

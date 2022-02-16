@@ -1,0 +1,112 @@
+{
+  "createBy": "http://liujiacai.net/gooreplacer/",
+  "version": "3.12.1",
+  "createAt": "2022/2/17 00:44:29",
+  "redirect-rules": [
+    {
+      "src": "https://platform.twitter.com/widgets.js",
+      "kind": "wildcard",
+      "dst": "https://cdn.jsdelivr.net/gh/wlor0623/cdnLib/platform.twitter.com/widgets.js",
+      "enable": true
+    },
+    {
+      "src": "http://sougouwiki.com/js/wiki-good-button.js",
+      "kind": "wildcard",
+      "dst": "https://cdn.jsdelivr.net/gh/wlor0623/cdnLib/sougouwiki.com/js/wiki-good-button.js",
+      "enable": true
+    },
+    {
+      "src": "https://www.google.com/cse/static/element/5ddefdcfb9e40bab/cse_element__en.js",
+      "kind": "wildcard",
+      "dst": "https://cdn.jsdelivr.net/gh/wlor0623/cdnLib@master/www.google.com/cse/static/element/5ddefdcfb9e40bab/cse_element__en.js",
+      "enable": true
+    },
+    {
+      "src": "http://sougouwiki.sakura.ne.jp/litebox-1.0/js/prototype.lite.js",
+      "kind": "wildcard",
+      "dst": "https://cdn.jsdelivr.net/gh/wlor0623/cdnLib/sougouwiki.sakura.ne.jp/litebox-1.0/js/prototype.lite.js",
+      "enable": true
+    },
+    {
+      "src": "ajax.googleapis.com",
+      "kind": "wildcard",
+      "dst": "ajax.loli.net",
+      "enable": true
+    },
+    {
+      "src": "fonts.googleapis.com",
+      "kind": "wildcard",
+      "dst": "fonts.loli.net",
+      "enable": true
+    },
+    {
+      "src": "themes.googleusercontent.com",
+      "kind": "wildcard",
+      "dst": "themes.loli.net",
+      "enable": true
+    },
+    {
+      "src": "fonts.gstatic.com",
+      "kind": "wildcard",
+      "dst": "gstatic.loli.net",
+      "enable": true
+    },
+    {
+      "src": "www.google.com/recaptcha",
+      "kind": "wildcard",
+      "dst": "www.recaptcha.net/recaptcha",
+      "enable": true
+    },
+    {
+      "src": "secure.gravatar.com",
+      "kind": "wildcard",
+      "dst": "gravatar.loli.net",
+      "enable": true
+    },
+    {
+      "src": "maxcdn.bootstrapcdn.com/bootstrap",
+      "kind": "wildcard",
+      "dst": "cdn.bootcdn.net/ajax/libs/twitter-bootstrap",
+      "enable": true
+    },
+    {
+      "src": "https://static.seesaawiki.jp/js/jquery/jquery-1.11.0.min.js?0.7.9",
+      "kind": "wildcard",
+      "dst": "https://cdn.jsdelivr.net/npm/jquery@1.11.0/dist/jquery.min.js",
+      "enable": true
+    },
+    {
+      "src": "http://sougouwiki.sakura.ne.jp/litebox-1.0/js/litebox-1.0.js",
+      "kind": "wildcard",
+      "dst": "https://cdn.jsdelivr.net/gh/wlor0623/cdnLib/sougouwiki.sakura.ne.jp/litebox-1.0/js/litebox-1.0.js",
+      "enable": true
+    },
+    {
+      "src": "https://www.gravatar.com/avatar/",
+      "kind": "wildcard",
+      "dst": "https://dn-qiniu-avatar.qbox.me/avatar/",
+      "enable": true
+    },
+    {
+      "src": "https://www.dropbox.com/static/api/2/dropins.js",
+      "kind": "wildcard",
+      "dst": "https://cdn.jsdelivr.net/gh/wlor0623/cdnLib/www.dropbox.com/static/api/2/dropins.js",
+      "enable": true
+    },
+    {
+      "src": "https://www.jpmarumaru.com/font/NotoSansJP-Regular.woff2",
+      "kind": "wildcard",
+      "dst": "https://cdn.jsdelivr.net/gh/wlor0623/cdnLib/www.jpmarumaru.com/font/NotoSansJP-Regular.woff2",
+      "enable": true
+    },
+    {
+      "src": "http://btcache.me/app/btc/View/js/app.min.js",
+      "kind": "wildcard",
+      "dst": "https://cdn.jsdelivr.net/gh/wlor0623/cdnLib/btcache.me/app/btc/View/js/app.min.js",
+      "enable": true
+    }
+  ],
+  "cancel-rules": [],
+  "request-headers": [],
+  "response-headers": []
+}
